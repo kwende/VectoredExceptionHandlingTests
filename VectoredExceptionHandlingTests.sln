@@ -12,6 +12,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteropLib", "InteropLib\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlowerUpper", "BlowerUpper\BlowerUpper.csproj", "{0EA7535C-A07C-4808-B7E9-D58715C05C7E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlowerUpperNative", "BlowerUpperNative\BlowerUpperNative.vcxproj", "{45E3CBB7-FF21-423E-841B-F07F6881A190}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7A7F026-92A0-45DD-B4A6-71CDCB6A2AC1} = {C7A7F026-92A0-45DD-B4A6-71CDCB6A2AC1}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +59,16 @@ Global
 		{0EA7535C-A07C-4808-B7E9-D58715C05C7E}.Release|x64.Build.0 = Release|Any CPU
 		{0EA7535C-A07C-4808-B7E9-D58715C05C7E}.Release|x86.ActiveCfg = Release|Any CPU
 		{0EA7535C-A07C-4808-B7E9-D58715C05C7E}.Release|x86.Build.0 = Release|Any CPU
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Debug|x64.ActiveCfg = Debug|x64
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Debug|x64.Build.0 = Debug|x64
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Debug|x86.ActiveCfg = Debug|Win32
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Debug|x86.Build.0 = Debug|Win32
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Release|Any CPU.ActiveCfg = Release|Win32
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Release|x64.ActiveCfg = Release|x64
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Release|x64.Build.0 = Release|x64
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Release|x86.ActiveCfg = Release|Win32
+		{45E3CBB7-FF21-423E-841B-F07F6881A190}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
